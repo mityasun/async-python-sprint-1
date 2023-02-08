@@ -1,0 +1,124 @@
+{
+    "cities": [
+        {
+            "city": {
+                "city": "ABUDHABI",
+                "total_average_temp": 34.3,
+                "total_good_conditions_hours": 35
+            },
+            "rating": 1
+        },
+        {
+            "city": {
+                "city": "CAIRO",
+                "total_average_temp": 33.4,
+                "total_good_conditions_hours": 33
+            },
+            "rating": 2
+        },
+        {
+            "city": {
+                "city": "BEIJING",
+                "total_average_temp": 31.6,
+                "total_good_conditions_hours": 39
+            },
+            "rating": 3
+        },
+        {
+            "city": {
+                "city": "ROMA",
+                "total_average_temp": 27.9,
+                "total_good_conditions_hours": 33
+            },
+            "rating": 4
+        },
+        {
+            "city": {
+                "city": "BUCHAREST",
+                "total_average_temp": 24.9,
+                "total_good_conditions_hours": 34
+            },
+            "rating": 5
+        },
+        {
+            "city": {
+                "city": "VOLGOGRAD",
+                "total_average_temp": 23.6,
+                "total_good_conditions_hours": 34
+            },
+            "rating": 6
+        },
+        {
+            "city": {
+                "city": "NOVOSIBIRSK",
+                "total_average_temp": 23.2,
+                "total_good_conditions_hours": 38
+            },
+            "rating": 7
+        },
+        {
+            "city": {
+                "city": "PARIS",
+                "total_average_temp": 17.3,
+                "total_good_conditions_hours": 31
+            },
+            "rating": 8
+        },
+        {
+            "city": {
+                "city": "BERLIN",
+                "total_average_temp": 16.3,
+                "total_good_conditions_hours": 15
+            },
+            "rating": 9
+        },
+        {
+            "city": {
+                "city": "LONDON",
+                "total_average_temp": 16.1,
+                "total_good_conditions_hours": 33
+            },
+            "rating": 10
+        },
+        {
+            "city": {
+                "city": "WARSZAWA",
+                "total_average_temp": 15.5,
+                "total_good_conditions_hours": 14
+            },
+            "rating": 11
+        },
+        {
+            "city": {
+                "city": "MOSCOW",
+                "total_average_temp": 13.8,
+                "total_good_conditions_hours": 8
+            },
+            "rating": 12
+        },
+        {
+            "city": {
+                "city": "KAZAN",
+                "total_average_temp": 13.7,
+                "total_good_conditions_hours": 10
+            },
+            "rating": 13
+        },
+        {
+            "city": {
+                "city": "KALININGRAD",
+                "total_average_temp": 13.3,
+                "total_good_conditions_hours": 12
+            },
+            "rating": 14
+        },
+        {
+            "city": {
+                "city": "SPETERSBURG",
+                "total_average_temp": 11.9,
+                "total_good_conditions_hours": 4
+            },
+            "rating": 15
+        }
+    ]
+}

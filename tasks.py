@@ -132,7 +132,7 @@ class DataCalculationTask:
 
 
 class DataAggregationTask:
-    """Save final result to csv and json"""
+    """Save final result to json"""
 
     def __init__(self, lock):
         self.__lock = lock

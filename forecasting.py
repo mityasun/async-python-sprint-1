@@ -12,10 +12,10 @@ from utils import CITIES, logger
 def forecast_weather() -> str:
 
     logger.debug('Running ThreadPoolExecutor() for make_request')
-    with ThreadPoolExecutor(max_workers=10) as pool:
+    with ThreadPoolExecutor() as pool:
         forecasts = pool.map(DataFetchingTask().make_request, CITIES.keys())
 
-    logger.debug('Running ProcessPoolExecutor() for %s cities models')
+    logger.debug('Running ProcessPoolExecutor() for cities models')
     cores_count = multiprocessing.cpu_count()
     with ProcessPoolExecutor(max_workers=cores_count - 1) as executor:
         data = executor.map(
